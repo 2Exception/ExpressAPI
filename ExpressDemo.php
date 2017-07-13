@@ -25,8 +25,6 @@
     $res = curl_exec($curl);
     $jsonarr = json_decode($res,true);
     $result = $jsonarr['result'];
-	print_r($res);
-    print_r("arr:".$result);
     if($result['issign'] == 1) echo '已签收'.'<br />';
     else echo '未签收'.'<br />';
     foreach($result['list'] as $val)
