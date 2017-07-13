@@ -1,5 +1,5 @@
 ﻿<?php  
-	header("Contetn-Type:text/html;charset=utf-8");
+    header("Contetn-Type:text/html;charset=utf-8");
     $host = "http://jisukdcx.market.alicloudapi.com";
     $path = "/express/query";
     $method = "GET";
